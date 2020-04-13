@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".blockActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="머신러닝/V2X/컴퓨터비전활용\n\t\t\t\t\t\t\t\t\t자율주행자동차"
+            android:textSize="25dp"
+            android:fontFamily="@font/font"
+            android:textColor="#DDAA3F"
+            android:padding="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:padding="10dp">
+        <Button
+            android:id="@+id/singup_btn"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:background="@drawable/squre3"
+            android:textColor="#AA8854"
+            android:text="수강신청"
+            android:fontFamily="@font/font"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:textSize="16dp"
+                android:text="■훈련대상근로자 개인 국비지원
+\n■과정분류\t:\t머신러닝/V2X/컴퓨터비전활용자율주행자동차SW개발
+\n■교육과정\t:\t머신러닝/V2X/컴퓨터비전활용자율주행자동차
+\n■교육기간\t:\t별도문의
+\n■모집인원\t:\t12명
+\n과정소개
+\n디바이스 드라이버 구현, 소스코드 인스펙션 등을 수행하는 능력을 함양합니다.
+\n최근 자율주행에 관한 법 제도 개정이 활발히 추진됨에 따라 자율주행 자동차 시장을 선점하기 위한 기술개발 경쟁이 치열하게 전개되고 있습니다. 현재 자율주행 자동차 기술은 완성차 기업과 대규모 IT 기업뿐만아니라 소규모 벤처기업에서도 활발히 개발되고 있으며, GM이 실리콘벨리의 크루즈 오토메이션을 인수하는 등 자율주행에 관한 산업생태계가 빠르게 변화하고 있습니다. 이러한세계적인 경쟁에 동참 할 수 있도록 자율주행에 필요한 핵심기술을 현업 실무자를 통해 노하우를 전수받을 수 있도록 하였습니다.
+\n본 훈련과정에서는 현재 양산되고 있는 차량에 탑제된 ADAS 제품 개발을 위해 전체 시스템을 훈련받는것보다 자율주행 차량에 탑재되는 SW 개발을 위한 기본 역량 강화를 목적으로 합니다.
+\n자율주행 시장 선점의 핵심인 빅데이터, Deep Learning기술을 최근 대두되는 Reinforcement 알고리즘 소개에 그치지 않고 conventional한 방법으로 현장 중심의 도전 정신을 가지고 문제 해결을 위한 치열한 노력을 해나가면서 창의적 역량을 높여나가도록 지도하고있습니다.
+\n본 교육과정의 강점
+\n대구는 880여개의 자동차 부품 기업이 제조업의 22%를 차지하며 지역 산업에 중요한 역할을 담당해 오고 있으나 GM이 실리콘벨리의 크루즈 오토메이션을 인수하는 등 이들 자동차 부품 기업을 중심으로 새로운 산업으로 빠르게 체질 개선이 요구되고 있습니다.
+\n자율주행 혁명으로 향후 5년이내에 자동차 산업과 IT산업간의 경계가 완전히 허물어지고, 제조업체보다 SW개발업체가 더 높은 이익을 창출하는 시대가 올것이며, 구글 등은 자율주행 세계 시장 선점 핵심인 자동차와 보행자가 혼재한 현실 공간 자율주행 테스트 실험 데이터를 모든 사람들과 공유하는 오픈 플랫폼기반 조성으로 데이터 수집을 선점해 가고 있습니다.
+\n자율주행 세계 시장과 당당히 맞설 수 있는 자율주행, 인공지능, 5G 통신 등 융합기술 비즈니스 역량을 갖춘 고급 인력 양성을 위해 산학연을 중심으로 혁신을 통해 4차산업이 요구하는 고급 인재 발굴, 육성이 되면 지역내 경제적 파급효과는 물론 추가 고용 창출로 사회에 미치는 긍정적 효과는 매우 클것으로 기대됩니다..\n\n" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

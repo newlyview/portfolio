@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ElectronicActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font"
+        android:text="\t\t\t\t\t\t전기 PLC\n시스템제어실무 과정"
+        android:textSize="30dp"
+        android:textColor="#DDAA3F"
+        android:padding="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:padding="10dp">
+        <Button
+            android:id="@+id/signup_btn"
+            android:fontFamily="@font/font"
+            android:textSize="20dp"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:background="@drawable/squre3"
+            android:textColor="#AA8854"
+            android:text="수강신청"
+            android:layout_marginLeft="20dp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:text="■교육기간\t\t:\t2018-12-27~2019-06-27
+\n■교육시간\t:\t09:00~17:20/일일8시간(월 화 수 목 금)
+\n■교사명:\t이상현 교사
+\n■모집인원\t:\t16명
+\n\t[우수훈련과정]12월27일 확정개강 (6개월)
+\n■교육비/환급금액
+\n교육비 : 국비 전액지원
+\n■ 교재비 : 교육중 교재 무료지급
+\n■ 실습재료비 : 교육중 소요 재료 무료지급
+\n■ 훈련장려금 : 매월 316,000원 차등지급
+\n(취성패 416,000원)
+\n지원자격
+\n■ 15세 이상 실업자 누구나 지원가능
+\n(고용보험 적용 및 미적용자 가능)
+\n■ 졸업예정자, 야간대학생, 방송통신 대학생, 사이버 대학생등
+\n■ 관련학과 졸업예정자는 우대
+\n(졸업예정자, 졸업후 취업희망자)
+\n교육내용
+\n■ NCS전공교과
+\n- 자동제어시스템운영 : 제어원리 응용, 제어시스템 점검, 현장 제어기기 운영, 네트워크 분석, 제어시스템 분석
+\n- 전기내선 : 동력제어반공사, 전열공사, 배선공사, 배관공사, 정보통신설비공사, 동력설비공사, 조명공사
+\n■ 비 NCS전공교과
+\n- 전기기기 설비 : 전선 및 케이블(전선의 종류, 전선의 접속, 케이블 공사),배선기구 및 측정기기(개폐기 및 점멸기, 공구 및 측정계기,접지와 절연), 옥내공사(배선용차단기 시설, 과전류차단기 시설, 조명공사), Labview(VI Editing/Debugging, Sub VI, 구조만들기, 배열과 클러스터, 차트와 그래프, 데이터 측정, 아날로그 입력 신호 측정, 아날로그 출력 실험, 디지털 입력 실험, 디지털 출력 실험, 카운터 실험, 문자열, 파일 입출력, 동기화, 인터넷 제어, 어플리케이션EXE 만들기, 센서변환, 응용사례), Labview HMI 및 PLC통신(HMI 어플리케이션, HMI추가 기능 구현)\n\n"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
